@@ -43,6 +43,7 @@
         border-left: 2px solid var(--botao-ativo); 
         border-right: 2px solid var(--botao-ativo); 
         border-top: none;
+    }
         .botoes {
             display: block;
         }
@@ -51,9 +52,10 @@
             .botoes {
                 display: flex;
             }
+            }
             .botao:first-child {
                 border-radius: 40px 40px 0 0;
-            
+            }
             @media screen and (min-width: 768px) {
                 .botoes {
                     display: flex;
@@ -71,8 +73,4 @@
                 background-color: var(--botao-ativo);
                 border-bottom: 4px solid var(--verde);
             }
-            <button class="botao ativo">Cursos na Alura</button>
-            <button class="botao">Criar projetos em Javascript</button>
-            <button class="botao">Criar um portfolio</button>
-            <button class="botao">Atualizar meu currículo</button>
-                                                        
+            
