@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 :root {
-    --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
+    --cor-de-fundo: #96969685;
+    --verde: #000000;
     --branco: #ffffff;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --botao-ativo: #000000;
+    --botao-inativo: #353535d8;
+    --texto-fundo: rgba(7, 2, 2, 0.3)
      }
      body {
-        background-color: var(--cor-de-fundo);
+        background-color: var(--cor-de-fundo);  
         color: var(--branco);
         font-family: 'Chakra Petch', sans-serif;
     }
@@ -25,7 +25,8 @@
         text-align: left;
         width: 100%;
         font-size: 32px;
-    }
+        color:#000000;
+        }
     .titulo-principal span {
         color: var(--verde);
     }
@@ -55,6 +56,10 @@
             }
             .botao:first-child {
                 border-radius:  40px 0 0 0;
+            }
+
+            .botao:last-child {
+                border-radius: 0 40px 0 0;
             }
             .ativo{
                 background-color: var(--botao-ativo);
